@@ -1,19 +1,19 @@
 <?php
 
-$deck = array();
-for ($i  = 0; $i < 52; $i++){
+include 'inc/dclGlobalVars.inc.php';
+include 'inc/dealer.inc.php';           // function newhand()
 	
-	$deck[] = $i;
-}
+	 
+ 
 
-shuffle($deck);
-print_r($deck);
+//shuffle($deck);
+//print_r($deck);
 
-echo "<br/><br/>";
-$lastcard = array_pop($deck);
-$suitArray = array("clubs", "diamonds", "hearts", "spades");
+//echo "<br/><br/>";
+//$lastcard = array_pop($deck);
+//$suitArray = array("clubs", "diamonds", "hearts", "spades");
 
-echo "<img src ='img/cards/".$suitArray[floor($lastcard/13)]."/". (($lastcard % 13) + 1).".png'/>"; 
+//echo "<img src ='img/cards/".$suitArray[floor($lastcard/13)]."/". (($lastcard % 13) + 1).".png'/>"; 
 
 ?>
 
