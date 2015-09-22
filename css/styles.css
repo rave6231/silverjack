@@ -1,1 +1,14 @@
-            
+	
+	#foots{
+		text-align:center;
+	}     
+	
+	#wrapper{
+		width:800px;
+		margin: 0 auto; /* This centers the div */
+		background-image: url(http://hosting.otterlabs.org/migueladrian/CST336/cst336/Labs/Lab3/silverjack/img/bodyback.jpg);
+	}
+	
+	h1{
+		text-align:center;
+	}       
