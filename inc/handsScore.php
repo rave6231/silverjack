@@ -11,7 +11,7 @@ function getScore($hand) {
 function getWinner($scores) {
 	$bestScore = 0;
 	foreach ($scores as $key => $value) {
-		if ($value > $bestScore) {
+		if ($value > $bestScore && $value <= 42) {
 			$bestScore = $value;
 			$winner = $key;
 		}
