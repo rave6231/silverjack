@@ -32,6 +32,9 @@
 
 <!DOCTYPE html>
 <html>
+	
+    <img src="../img/player_1.png">
+	
     <head>
         <title> Lab2: Multiplying playing cards</title>
         <meta charset="utf-8"/>
@@ -49,6 +52,10 @@
     
         
     <body>
+    	
+    	<img src="../../img/beach.jpg">
+      	<hr>
+      	
         <?php
            
             
@@ -136,6 +143,14 @@
             &copy; Created by: Adrain Miguel
             
         </footer>
+        
+        	<footer>
+				<hr>
+				Disclaimer: The information included in this page might not be accurate. It was developed as part of the CST336 class at CSUMB.
+				<br>
+				&copy; <a href="http://hosting.otterlabs.org/zielinskiaustinr/cst336/index.html">Zielinski</a>, 2015
+				<br><img src="../img/csumb-logo.png">
+			</footer>
         
     </body>
 </html>

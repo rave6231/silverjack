@@ -13,7 +13,7 @@ function newhand(){
 	};
 	//print_r($cards);
 	
-	return ($cards);
+	return $cards;
 }  // End Function
 
 
@@ -36,7 +36,7 @@ function displayhand($hand){
 	for($i =0; $i < count($hand); $i++){
 		$suit = floor($hand[$i] / 13);
 		$card = ($hand[$i] % 13 ) + 1 ;
-		echo "<img src ='img/cards/".$suits[$suit]."/". $card.".png'>";
+		echo "<img src='img/cards/".$suits[$suit]."/". $card.".png' style='margin:auto'>";
 	}
 }
 
